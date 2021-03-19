@@ -12,7 +12,10 @@ function writePassword() {
 
   passwordText.value = password;
 
+ if (window.confirm == true)
+  window.confirm("allow capital letters?")
 }
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
